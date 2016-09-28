@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">KLM Flight Tracker</string>
+
+    <!-- Main Activity -->
+    <string name="invalid_value">Origem ou destino inválido.</string>
+    <string name="insuficient_info">É necessário mais informações para realizar a busca.</string>
+
+    <!-- Task GetAirportsList -->
+    <string name="request_error">Erro ao carregar.</string>
+
+    <!-- Task GetDestinationWeather -->
+    <string name="weather_error">Informações do tempo não disponíveis.</string>
+
+    <!-- Task GetDestinationNews -->
+    <string name="news_error">Notícias indisponíveis no momento.</string>
+
+    <!-- Task GetFlightDetails -->
+    <string name="error_flight_request">Erro ao carregar informações do vôo.</string>
+    <string name="flight_not_found">Vôo não encontrado.</string>
+    <string name="time_at"> às </string>
+
+
+    <!-- Layouts -->
+    <string name="loading">Carregando</string>
+    <string name="loading_data">Carregando...</string>
+    <string name="back">Voltar</string>
+
+
+    <string name="origin">Origem</string>
+    <string name="departure">Embarque</string>
+    <string name="arrival">Desembarque</string>
+    <string name="destination">Destino</string>
+    <string name="select_date">Selecionar Data</string>
+    <string name="Search">Buscar</string>
+
+    <string name="search_number_date">Busque pelo Número e Data do Vôo</string>
+    <string name="flight_number">Número do vôo</string>
+    <string name="date">Data</string>
+    <string name="number_eg">e.x., KL999</string>
+
+    <string name="search_origin_destination">Busque por local de embarque e desembarque</string>
+    <string name="departure_date">Data de embarque</string>
+    <string name="arrival_date">Data de desembarque</string>
+    <string name="flight_status">Status do Vôo</string>
+
+</resources>
