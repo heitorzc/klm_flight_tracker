@@ -174,7 +174,6 @@ public class MainActivity extends AppCompatActivity implements TaskManager.TaskL
 
         //Verifies is flight_number and selected_date aren't empty
         if (!flight_number.trim().isEmpty() && !selected_date.trim().isEmpty()) {
-            //Perform search by flight number and date.
 
             //TODO Implementar esse request utilizando o mesmo metodo que o Heitor utilizou.
             new GetFlightDetails(MainActivity.this, flight_number, selected_date).requestByFlightNumber();
