@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements TaskManager.TaskL
         ButterKnife.bind(this);
 
         etFlight.setNextFocusDownId(R.id.etSelectDate);
-        
+
         setOnFocusChangeListener(etSelectDate);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, Constants.airports_locations);
@@ -175,6 +175,8 @@ public class MainActivity extends AppCompatActivity implements TaskManager.TaskL
         //Verifies is flight_number and selected_date aren't empty
         if (!flight_number.trim().isEmpty() && !selected_date.trim().isEmpty()) {
             //Perform search by flight number and date.
+
+            //TODO Implementar esse request utilizando o mesmo metodo que o Heitor utilizou.
             new GetFlightDetails(MainActivity.this, flight_number, selected_date).requestByFlightNumber();
 
         }
@@ -190,7 +192,6 @@ public class MainActivity extends AppCompatActivity implements TaskManager.TaskL
 
                 //Perform search by departure and destination
                 new ServerTask(this).getFlightsList("originAirportCode=" + departure + "&destinationAirportCode=" + destination);
-                //new GetFlightDetails(MainActivity.this, departure, destination).requestByOriginAndDestination();
 
             }
             else{
