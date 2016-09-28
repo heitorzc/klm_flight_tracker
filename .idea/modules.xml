@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KLMFlightTracker.iml" filepath="$PROJECT_DIR$/KLMFlightTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/klm_flight_tracker.iml" filepath="$PROJECT_DIR$/klm_flight_tracker.iml" />
     </modules>
   </component>
 </project>

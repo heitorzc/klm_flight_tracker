@@ -31,7 +31,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
- * Created by Heitor Zanetti
+ * Created by Bruno Vocchieri
  * 10/03/2016
  */
 public class MainActivity extends AppCompatActivity implements TaskManager.TaskListener,
